@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-[#fff] w-screen h-[78px]'>
+    <div className='bg-[#fff] w-screen h-[78px] fixed top-0 z-30'>
       <div className='max-w-[1200px] mx-auto'>
         <div className='flex justify-between'>
           <div className='flex items-center space-x-1 '>

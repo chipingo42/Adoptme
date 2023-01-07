@@ -1,9 +1,13 @@
 import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import Cards from "./Components/Cards";
 
 function App() {
   return (
-    <div className="bg-[#0D75FF0D] w-full h-screen ">
+    <div >
       <Navbar />
+      <Hero />
+      <Cards />
     </div>
   );
 }
