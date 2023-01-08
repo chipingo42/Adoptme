@@ -1,6 +1,8 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Cards from "./Components/Cards";
+import Footer from "./Components/Footer";
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <Navbar />
       <Hero />
       <Cards />
+      <Footer />
     </div>
   );
 }
