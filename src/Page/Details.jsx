@@ -1,18 +1,17 @@
 import React from 'react'
 import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
-import details from '../Assets/details-pic.png'
-import card1 from '../Assets/details-card1.png'
-import card2 from '../Assets/details-card2.png'
-import card3 from '../Assets/details-card3.png'
-import card4 from '../Assets/details-card4.png'
+import details from '../Assets/details-pic.png';
+import card1 from '../Assets/details-card1.png';
+import card2 from '../Assets/details-card2.png';
+import card3 from '../Assets/details-card3.png';
+import card4 from '../Assets/details-card4.png';
 import AdoptLuna from '../Components/AdoptLuna';
 
 const Details = ({visible}) => {
 
-    
 
-
+  // if (!visible) return null;
 
 
   return (
@@ -77,9 +76,9 @@ const Details = ({visible}) => {
             <img src={card3} alt="/" />
             <img src={card4} alt="/" />
           </div>
-          <div className='h-[211px] bg-white mt-[22px] flex  flex-col px-[20px] '>
+          <div className='h-[211px] bg-white mt-[22px] flex  shadow-md flex-col px-[20px] '>
             <h1 className=' font-Inter font-[500] text-[24px] text-[#58667E] pt-[31px]'>Description</h1>
-            <p className=' font-Inter font-[400] text-[d13px] text-[#58667E] '>Clina-Lancet Laboratories is a member of the Lancet Group of Laboratories in 14 African countries. <br /> We are ISO 15189:2012 accredited, operating as a 24-hour laboratory in 8 locations in Nigeria <br /> across Lagos,</p>
+            <p className=' font-Inter font-[400] text-[13px] text-[#58667E] '>Clina-Lancet Laboratories is a member of the Lancet Group of Laboratories in 14 African countries. <br /> We are ISO 15189:2012 accredited, operating as a 24-hour laboratory in 8 locations in Nigeria <br /> across Lagos,</p>
             <div className='w-[147px] h-[41px] bg-[#F0F6FF] flex justify-center items-center space-x-2 mt-[10px] rounded-sm'>
               <span>
                 <svg width="13" height="15" viewBox="0 0 13 15" fill="none" xmlns="http://www.w3.org/2000/svg">
