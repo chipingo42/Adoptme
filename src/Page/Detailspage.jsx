@@ -24,7 +24,9 @@ const Detailspage = () => {
     .then(res => res.json())
     .then(data => {
       setProducts(data)
-      setLoading(false)
+      setTimeout(() => {
+        setLoading(false)
+      }, 3000);
     })
     .catch(err => err.message)
   }, [productId])

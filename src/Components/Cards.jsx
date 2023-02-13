@@ -19,7 +19,9 @@ const Cards = () => {
     .then(res => res.json())
     .then(data => {
       setProducts(data)
-      setLoading(false)
+      setTimeout(() => {
+        setLoading(false)
+      }, 3000);
     })
     .catch(err => err.message)
   },[])
@@ -31,7 +33,7 @@ const Cards = () => {
     <div className='w-full h-full bg-white pb-[220px]'>
       <div className='max-w-[1200px] mx-auto relative top-0'>
         <h1 className=' font-Inter font-[500] text-[24px] pt-[70px] text-[#000000] '>Search Results</h1>
-        <div className='flex flex-wrap gap-7 '>
+        <div className='flex flex-wrap  '>
           {isLoading ?  ( 
             <Skeleton />
           ) : (    
