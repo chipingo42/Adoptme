@@ -44,7 +44,7 @@ const Detailspage = () => {
             <div className='flex justify-between items-center'>
               <div className='flex space-x-4'>
                 <div className='w-[80px] h-[80px] bg-[#F0F6FF] rounded-full flex items-center justify-center '>
-                  <span className='font-Inter font-[600] text-[36px] text-[#000000]'>L</span>
+                  <span className='font-Inter font-[600] text-[36px] text-[#000000]'>{products.title[0].toUpperCase()}</span>
                 </div>
                 <div>
                   <h1 className='font-Inter font-[600] text-[36px] text-[#344062]'>{products.title}</h1>
