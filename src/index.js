@@ -7,7 +7,7 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Details from './Page/Details';
+import Detailspage from './Page/Detailspage';
 
 const router = createBrowserRouter([
   {
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "Details",
-    element: <Details />,
+    path: "Detailspage/:productId",
+    element: <Detailspage />,
   },
 ]);
 

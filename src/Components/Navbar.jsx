@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
+
+
 const Navbar = () => {
   return (
     <div className='bg-[#fff] w-screen h-[78px] fixed top-0 z-30'>

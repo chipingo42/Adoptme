@@ -12,7 +12,7 @@ const Hero = () => {
           <div>
             <h1 className='pt-[154px] font-Inter font-[500] text-[14px] text-[#0D75FF] '>FIND SPECIAL PETS</h1>
             <p className=' font-Inter font-[600] text-[48px] text-[#344062] leading-[58px] pt-[9px] '>Think you Love Pets? <br /> <span className='text-[#CB2E42]'>Adopt One.</span></p>
-            <p className=' font-Inter font-[400] text-[16px] text-[#344062] pt-[10px] '>Pet Adoption is quickly becomingthe preferred way to find a new dog, <br /> puppy, cat or kitten</p>
+            <p className=' font-Inter font-[400] text-[16px] text-[#344062] pt-[10px] '>Pet Adoption is quickly becoming the preferred way to find a new dog, <br /> puppy, cat or kitten</p>
             <div className='absolute mt-[170px] w-[63vw] h-[227px] px-[20px] bg-white rounded-md shadow-lg '>
               <div className='relative flex space-x-10 items-center px-[20px]  bg-[#F8FAFD] w-full h-[64px] mt-[16px] rounded-full'>
                 <div className='flex space-x-2 items-center'>
