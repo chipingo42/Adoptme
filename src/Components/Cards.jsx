@@ -35,7 +35,7 @@ const Cards = () => {
             <Skeleton />
           ) : (    
             products?.products?.map((product, i) => (
-              <div key={i} className='w-[347px] min-h-[20px] border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
+              <div key={i} className='w-[347px] border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
                 <img src={product.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
                 <div className='flex justify-between items-center'>
                   <div>
@@ -104,11 +104,11 @@ const Cards = () => {
             <Skeleton />
           ) : (    
             products?.products?.map((product, index) => (
-            <div key={index} className='w-[347px] min-h-[20px] border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
+            <div key={index} className='w-[347px]  border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
               <img src={product.images[2]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
               <div className='flex justify-between items-center'>
                 <div>
-                  <h2 className='font-Inter font-[500] text-[25px] text-[#58667E] pt-[16px]'>{product.title}</h2>
+                  <p className='font-Inter font-[500] text-[25px] text-[#58667E] pt-[16px]'>{product.title}</p>
                   <p className='font-Inter font-[400] text-[14px] text-[#666879] leading-[5px]'>{product.brand}</p>
                 </div>
                 <span className='mt-2'>
