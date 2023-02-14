@@ -12,8 +12,6 @@ const Detailspage = () => {
   const [products, setProducts] = useState([]);
   const [isloading, setLoading] = useState(true)
   const [isLuna, setLuna] = useState(false)
-
-
   const handleLuna = () => setLuna(true);
   const handleLunaClose = () => setLuna(false)
 
@@ -26,13 +24,10 @@ const Detailspage = () => {
       setProducts(data)
       setTimeout(() => {
         setLoading(false)
-      }, 3000);
+      }, 5000);
     })
     .catch(err => err.message)
   }, [productId])
-
-  console.log(products);
-
 
 
   return (
