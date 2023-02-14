@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Browsepet from './Browsepet';
-import Skeleton from './Skeleton';
+import Skeleton from '../Skeleton/Skeleton';
 
 
 
@@ -35,7 +35,7 @@ const Cards = () => {
             <Skeleton />
           ) : (    
             products?.products?.map((product, i) => (
-              <div key={i} className='w-[347px] border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
+              <div key={i} className='w-[347px] border border-solid border-[#F0F6FF] rounded-md mt-[24px] px-[15px] '>
                 <img src={product.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
                 <div className='flex justify-between items-center'>
                   <div>
@@ -104,7 +104,7 @@ const Cards = () => {
             <Skeleton />
           ) : (    
             products?.products?.map((product, index) => (
-            <div key={index} className='w-[347px]  border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
+            <div key={index} className='w-[347px]  border border-solid border-[#F0F6FF] rounded-md mt-[24px] px-[15px] '>
               <img src={product.images[2]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
               <div className='flex justify-between items-center'>
                 <div>

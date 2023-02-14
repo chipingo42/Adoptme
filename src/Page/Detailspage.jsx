@@ -3,7 +3,7 @@ import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 import { useParams } from 'react-router-dom';
 import AdoptLuna from '../Components/AdoptLuna';
-import { Skeletondetails } from '../Components/Skeletondetails';
+import { Skeletondetails } from '../Skeletondetails/Skeletondetails';
 
 
 const Detailspage = () => {
