@@ -35,7 +35,7 @@ const Cards = () => {
             <Skeleton />
           ) : (    
             products?.products?.map((product, i) => (
-              <div key={i} className='w-[347px] h-full border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
+              <div key={i} className='w-[347px] min-h-[20px] border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
                 <img src={product.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
                 <div className='flex justify-between items-center'>
                   <div>
@@ -78,7 +78,7 @@ const Cards = () => {
                     </svg>
                   </span>
                 </div>
-                <div className='flex justify-between items-center mt-[17px]'>
+                <div className='flex justify-between items-center py-5'>
                   <Link to={`Detailspage/${product.id}`}>
                     <div className='w-[121px] h-[39px] bg-[#0D75FF] rounded-[30px] flex items-center justify-center'>
                       <span className='font-Inter font-[400] text-[13px] text-[#FFFFFF] '>View Details</span>
@@ -99,12 +99,12 @@ const Cards = () => {
           )}
         </div>
         <Browsepet/>
-        <div className='flex flex-wrap gap-7 '>
+        <div className='flex flex-wrap gap-12 '>
           {isLoading ?  ( 
             <Skeleton />
           ) : (    
             products?.products?.map((product, index) => (
-            <div key={index} className='w-[347px] h-full border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
+            <div key={index} className='w-[347px] min-h-[20px] border border-solid border-[#F0F6FF] rounded-sm mt-[24px] px-[15px] '>
               <img src={product.images[2]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
               <div className='flex justify-between items-center'>
                 <div>
@@ -147,7 +147,7 @@ const Cards = () => {
                   </svg>
                 </span>
               </div>
-              <div className='flex justify-between items-center mt-[17px]'>
+              <div className='flex justify-between items-center py-5'>
                 <Link to={`Detailspage/${product.id}`}>
                   <div className='w-[121px] h-[39px] bg-[#0D75FF] rounded-[30px] flex items-center justify-center'>
                     <span className='font-Inter font-[400] text-[13px] text-[#FFFFFF] '>View Details</span>
