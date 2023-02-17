@@ -96,9 +96,6 @@ const Detailspage = () => {
                 </div>
                 <div className='mt-[32px] flex justify-between items-center'>
                   <img src={item.images[0]}  alt="/" className='h-[97px] w-[158px] rounded-md'  />
-                  <img src={item.images[0]}  alt="/" className='h-[97px] w-[158px] rounded-md'  />
-                  <img src={item.images[0]}  alt="/" className='h-[97px] w-[158px] rounded-md'  />
-                  <img src={item.images[0]}  alt="/" className='h-[97px] w-[158px] rounded-md'  />
                 </div>
                 <div className='h-[211px] bg-white mt-[22px] flex  shadow-md flex-col px-[20px] '>
                   <h1 className=' font-Inter font-[500] text-[24px] text-[#58667E] pt-[31px]'>Description</h1>

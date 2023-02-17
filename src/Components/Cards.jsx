@@ -25,7 +25,7 @@ const Cards = () => {
     .catch(err => err.message)
   },[])
 
-  // console.log(pet)
+  console.log(pet)
 
 
   return (
@@ -38,7 +38,9 @@ const Cards = () => {
           ) : (    
             pet?.pets?.map((item, i) => (
               <div key={i} className='w-[347px] border border-solid border-[#F0F6FF] rounded-md mt-[24px] px-[15px] '>
-                <img src={item.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
+                {
+                  <img src={item.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
+                }
                 <div className='flex justify-between items-center'>
                   <div className='w-9/12'>
                     <h2 className='font-Inter font-[500] text-[25px] text-[#58667E] pt-[16px]'>{item.name}</h2>
