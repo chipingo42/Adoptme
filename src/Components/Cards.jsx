@@ -32,7 +32,7 @@ const Cards = () => {
     <div className='w-full h-full bg-white pb-[220px]'>
       <div className='max-w-[1200px] mx-auto relative top-0'>
         <h1 className=' font-Inter font-[500] text-[24px] pt-[70px] text-[#000000] md:mx-4 sm:mx-3 '>Search Results</h1>
-        <div className='flex flex-wrap justify-between gap-12 md:gap-9 '>
+        <div className='flex flex-wrap justify-between gap-12 md:gap-9 md:mx-4 sm:mx-3 '>
           {isLoading ? ( 
             <Skeleton />
           ) : (    
@@ -103,7 +103,7 @@ const Cards = () => {
           )}
         </div>
         <Browsepet/>
-        <div className='flex flex-wrap gap-12 md:gap-9 '>
+        <div className='flex flex-wrap gap-12 md:gap-9 md:mx-4 sm:mx-3 '>
           {isLoading ? ( 
             <Skeleton />
           ) : (    
