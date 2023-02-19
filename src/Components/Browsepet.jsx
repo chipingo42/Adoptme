@@ -3,9 +3,9 @@ import React from 'react'
 const Browsepet = () => {
   return (
     <div>
-      <h1 className=' font-Inter font-[500] text-[36px] text-[#666879] pt-[58px] '>Browse Though Pet Types</h1>
-      <div className='flex items-center space-x-3 mt-[40px]'>
-        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center '>
+      <h1 className=' font-Inter font-[500] text-[36px] text-[#666879] pt-[58px] md:mx-4 sm:text-[26px] '>Browse Though Pet Types</h1>
+      <div className='flex items-center gap-3 mt-[40px] md:mx-4 sm:gap-2'>
+        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center sm:w-[180px] sm:h-[70px]  '>
           <span className='mt-2'>
             <svg width="25" height="23" viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M6.67665 13.8555C6.67665 13.8555 6.82332 19.1009 6.44278 19.6167C6.06224 20.1325 5.63017 20.3885 5.70945 20.8209C5.76891 21.137 6.01269 21.1467 6.86098 21.1467C7.70926 21.1467 8.05214 20.7065 8.25827 20.1344C8.46241 19.5604 8.54169 18.8255 8.6289 17.8792C8.70818 17.0221 8.84295 14.8018 8.84295 14.8018L6.67665 13.8555Z" fill="#865A52"/>
@@ -41,9 +41,9 @@ const Browsepet = () => {
               </defs>
             </svg>
           </span>
-          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] '>Dogs</p>
+          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] sm:text-[14px] '>Dogs</p>
         </div>
-        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center '>
+        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center sm:w-[180px] sm:h-[70px]  '>
           <span className='mt-2'>
             <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2.59467 8.84322C2.58431 8.84322 2.57395 8.84322 2.56359 8.84111C2.54805 8.839 2.15952 8.80311 1.49903 8.70598C0.778958 8.59829 0.304955 8.55395 0.299775 8.55395C0.144364 8.53917 0.0303965 8.42515 0.0485277 8.29635C0.0666589 8.16966 0.209119 8.07675 0.364529 8.09153C0.385251 8.09365 0.861843 8.13799 1.60263 8.24778C2.24241 8.3428 2.62575 8.3787 2.62834 8.3787C2.78375 8.39348 2.89772 8.5075 2.87959 8.6363C2.86146 8.75454 2.73713 8.84322 2.59467 8.84322Z" fill="#888071"/>
@@ -64,9 +64,9 @@ const Browsepet = () => {
               <path d="M14.1598 1.80353C14.0355 1.76764 13.2299 2.53199 12.8284 3.29002C12.427 4.04804 12.2819 4.46401 12.3182 4.59703C12.3337 4.65615 12.7974 4.98343 13.4838 5.42896C14.1961 5.88926 14.6493 6.1722 14.8514 6.15742C15.0508 6.14264 15.1078 4.87997 14.942 3.73554C14.7762 2.59112 14.3592 1.86265 14.1598 1.80353Z" fill="#FED0AB"/>
             </svg>
           </span>
-          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] '>Cat</p>
+          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] sm:text-[14px] '>Cat</p>
         </div>
-        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center '>
+        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center sm:w-[180px] sm:h-[70px]  '>
           <span className='mt-2'>
             <svg width="35" height="31" viewBox="0 0 35 31" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M33.6782 8.26929C33.6782 8.26929 34.3192 4.68678 31.6389 6.30469C31.6389 6.30469 31.4058 2.66439 29.1334 5.20682C29.1334 5.20682 27.9098 2.95331 26.5697 5.03347C24.7634 7.80703 23.5398 12.1985 24.7051 19.4791L26.9193 18.0345C28.4925 13.4697 34.1444 12.9497 34.9018 10.465C35.4262 8.73155 33.6782 8.26929 33.6782 8.26929Z" fill="#42ADE2"/>
@@ -82,9 +82,9 @@ const Browsepet = () => {
               <path d="M7.63294 10.0605C8.43744 10.0605 9.08961 9.4138 9.08961 8.61599C9.08961 7.81818 8.43744 7.17142 7.63294 7.17142C6.82844 7.17142 6.17627 7.81818 6.17627 8.61599C6.17627 9.4138 6.82844 10.0605 7.63294 10.0605Z" fill="#3E4347"/>
             </svg>
           </span>
-          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] '>Bird</p>
+          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] sm:text-[14px] '>Bird</p>
         </div>
-        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center '>
+        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center sm:w-[180px] sm:h-[70px]  '>
           <span className='mt-2'>
             <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M8.99997 11C8.99997 6.858 6.99997 0 7.99997 0C8.99997 0 15 4 13 11C11.862 14.983 12.104 15 11 15C9.89597 15 8.99997 15.142 8.99997 11Z" fill="#99AAB5"/>
@@ -97,9 +97,9 @@ const Browsepet = () => {
               <path d="M2 21C2 22.104 1.5 23 1 23C0.5 23 0 22.104 0 21C0 19.896 0.448 20 1 20C1.552 20 2 19.896 2 21Z" fill="#F4ABBA"/>
             </svg>
           </span>
-          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] '>Rabbit</p>
+          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] sm:text-[14px] '>Rabbit</p>
         </div>
-        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center '>
+        <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center sm:w-[180px] sm:h-[70px]  '>
           <span className='mt-2'>
             <svg width="30" height="21" viewBox="0 0 30 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M20.7348 12.6477C20.7348 14.0487 19.0534 15.1847 16.9793 15.1847C14.9062 15.1847 13.2243 14.0487 13.2243 12.6477V3.5125C13.2243 2.11153 14.9058 0.975224 16.9793 0.975224C19.0529 0.975224 20.7348 2.11153 20.7348 3.5125V12.6477Z" fill="#199050"/>
@@ -115,10 +115,10 @@ const Browsepet = () => {
               <path d="M13.1901 9.41646C12.9426 8.63544 14.487 8.42922 16.5872 8.12623C18.686 7.82324 20.5478 7.53843 20.7948 8.31946C21.0423 9.10048 19.5365 9.97828 17.4396 10.2809C15.3408 10.5836 13.4385 10.1972 13.192 9.41646" fill="#04A69C"/>
             </svg>
           </span>
-          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] '>Reptile</p>
+          <p className=' font-Inter font-[500] text-[18px] text-[#0D75FF] sm:text-[14px] '>Reptile</p>
         </div>
       </div>
-      <div className='relative top-0 left-0 flex items-center'>
+      <div className='relative top-0 left-0 flex items-center md:mx-4'>
         <span className='absolute left-3 top-[70px] '>
           <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M8.00236 5.17917C7.25351 5.17917 6.53534 5.46386 6.00582 5.97062C5.47631 6.47738 5.17883 7.16469 5.17883 7.88135C5.17883 8.59801 5.47631 9.28533 6.00582 9.79208C6.53534 10.2988 7.25351 10.5835 8.00236 10.5835C8.7512 10.5835 9.46938 10.2988 9.99889 9.79208C10.5284 9.28533 10.8259 8.59801 10.8259 7.88135C10.8259 7.16469 10.5284 6.47738 9.99889 5.97062C9.46938 5.46386 8.7512 5.17917 8.00236 5.17917ZM6.3553 7.88135C6.3553 7.4633 6.52883 7.06237 6.83771 6.76676C7.1466 6.47115 7.56553 6.30508 8.00236 6.30508C8.43918 6.30508 8.85812 6.47115 9.167 6.76676C9.47589 7.06237 9.64941 7.4633 9.64941 7.88135C9.64941 8.2994 9.47589 8.70034 9.167 8.99594C8.85812 9.29155 8.43918 9.45762 8.00236 9.45762C7.56553 9.45762 7.1466 9.29155 6.83771 8.99594C6.52883 8.70034 6.3553 8.2994 6.3553 7.88135Z" fill="#AFB6C1"/>

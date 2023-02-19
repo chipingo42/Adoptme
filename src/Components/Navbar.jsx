@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 
 
 
-const Navbar = () => {
+const  Navbar = () => {
   return (
     <div className='bg-[#fff] w-screen h-[78px] fixed top-0 z-30'>
-      <div className='max-w-[1200px] mx-auto'>
+      <div className='max-w-[1200px] mx-auto md:mx-4 sm:mx-3'>
         <div className='flex justify-between'>
           <Link to="/">
             <div className='flex items-center space-x-1 '>
@@ -17,11 +17,11 @@ const Navbar = () => {
                   </svg>
                 </span>
               </div>
-              <p className=' font-Inter font-[500] text-[25px] pt-[18px] text-[#344062] '>Petly</p>
+              <p className=' font-Inter font-[500] text-[25px] pt-[18px] text-[#344062] md:text-[20px] '>Petly</p>
             </div>
           </Link>
-          <ul className='flex items-center space-x-16 pt-[25px]'>
-            <li className=' font-Roboto font-[400] text-[14px] text-[#58667E] '>Find a pet to Adopt</li>
+          <ul className='flex items-center space-x-16 pt-[25px] md:space-x-8 md:hidden '>
+            <li className=' font-Roboto font-[400] text-[14px] text-[#58667E]  '>Find a pet to Adopt</li>
             <li className=' font-Roboto font-[400] text-[14px] text-[#58667E] '>Report a missing pet</li>
           </ul>
           <div className='w-[109px] h-[46px] mt-[16px] border rounded-[10px] border-[#E7EDFD] flex justify-center items-center  space-x-5  '>

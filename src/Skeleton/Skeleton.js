@@ -3,8 +3,8 @@ import React from 'react'
 export default function  Skeleton() {
   return(
     <div className='mt-6'>
-      <div className='flex flex-wrap gap-12'>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+      <div className='flex flex-wrap gap-12 md:mx-4 md:gap-9 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -23,7 +23,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -42,7 +42,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -61,7 +61,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -80,7 +80,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -99,7 +99,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -118,7 +118,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -137,7 +137,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -156,7 +156,7 @@ export default function  Skeleton() {
             </div>
           </div>
         </div>
-        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 '>
+        <div className='relative space-y-3 overflow-hidden w-[347px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
           <div>
             <div className='flex justify-between items-center mt-[25px]'>
@@ -179,8 +179,4 @@ export default function  Skeleton() {
     </div> 
   )
 }
-
-
-
-
 
