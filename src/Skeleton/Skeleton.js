@@ -3,7 +3,7 @@ import React from 'react'
 export default function  Skeleton() {
   return(
     <div className='mt-6 w-full'>
-      <div className='flex flex-wrap justify-between gap-14 md:gap-9 md:px-4  overflow-hidden'>
+      <div className='flex flex-wrap justify-between gap-14 md:gap-9 md:px-4 sm:px-0  overflow-hidden'>
 
         <div className='relative space-y-3 overflow-hidden w-[360px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
