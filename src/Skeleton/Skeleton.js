@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function  Skeleton() {
   return(
-    <div className='mt-6 w-screen'>
-      <div className='mt-6 w-full flex  flex-wrap justify-between  overflow-hidden'> 
+    <div className='mt-6 w-full overflow-hidden'>
+      <div className='flex flex-wrap justify-between md:gap-9 sm:gap-10 '>
 
         <div className='relative space-y-3 overflow-hidden w-[360px] h-[339px] border border-solid bg-white border-[#F0F6FF] rounded-md p-3 md:w-full '>
           <div className=" h-48 w-full rounded-lg bg-[#E9EEF5] animate-pulse "></div>
@@ -67,6 +67,4 @@ export default function  Skeleton() {
     </div> 
   )
 }
-
-// gap-14 md:gap-9 md:px-4 sm:gap-12 sm:px-0 
 
