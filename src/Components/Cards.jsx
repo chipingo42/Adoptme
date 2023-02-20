@@ -14,7 +14,7 @@ const Cards = () => {
 
   useEffect(() => {
     setLoading(true)
-    fetch('https://pets-v2.dev-apis.com/pet') //https://dummyjson.com/products
+    fetch('https://pets-v2.dev-apis.com/pets') //https://dummyjson.com/products
     .then(res => res.json())
     .then(data => {
       setPet(data)
