@@ -4,7 +4,7 @@ const Browsepet = () => {
   return (
     <>
       <h1 className=' font-Inter font-[500] text-[36px] text-[#666879] pt-[58px] md:mx-4 sm:text-[26px] '>Browse Though Pet Types</h1>
-      <div className='grid grid-cols-5 items-center gap-3 mt-[40px] md:mx-4 sm:gap-12 w-7/12 md:w-full md:gap-1 sm:w-10/12 '>
+      <div className='grid grid-cols-5 items-center gap-3 mt-[40px] md:mx-4 sm:gap-12 w-7/12 lg:w-full md:gap-1 sm:w-10/12 '>
         <div className='border border-solid border-[#0D75FF66] bg-[#F0F6FF] w-[118px] h-[108px] rounded-xl flex flex-col items-center justify-center sm:w-[50px] sm:h-[56px]  '>
           <span className='mt-2'>
             <svg className='w-[25px h-[23px] sm:w-[20px] sm:h-[20px]'  viewBox="0 0 25 23" fill="none" xmlns="http://www.w3.org/2000/svg">

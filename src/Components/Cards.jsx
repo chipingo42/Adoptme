@@ -29,10 +29,10 @@ const Cards = () => {
 
 
   return (
-    <div className='w-full h-full bg-white pb-[220px]'>
-      <div className='max-w-[1200px] mx-auto relative top-0'>
+    <div className='w-full h-full bg-white pb-[220px] sm:pb-[100px]'>
+      <div className='max-w-[1200px] mx-auto relative top-0 overflow-hidden'>
         <h1 className=' font-Inter font-[500] text-[24px] pt-[70px] text-[#000000] md:mx-4 sm:mx-3 '>Search Results</h1>
-        <div className='flex flex-wrap justify-between gap-12 md:gap-9 md:mx-4 sm:mx-3 '>
+        <div className='flex flex-wrap justify-between md:mx-4 sm:mx-3'>
           {isLoading ? ( 
             <Skeleton />
           ) : (    
@@ -103,13 +103,15 @@ const Cards = () => {
           )}
         </div>
         <Browsepet/>
-        <div className='flex flex-wrap gap-12 md:gap-9 md:mx-4 sm:mx-3 '>
+        <div className='flex flex-wrap justify-between md:mx-4 sm:mx-3 mt-[34px]'>
           {isLoading ? ( 
             <Skeleton />
           ) : (    
             pet?.pets?.map((item, i) => (
-              <div key={i} className='w-[347px] border border-solid border-[#F0F6FF] rounded-md mt-[24px] px-[15px] md:w-full  '>
-                <img src={item.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
+              <div key={i} className='w-[360px] border border-solid border-[#F0F6FF] rounded-md mt-[24px] px-[15px] md:w-full '>
+                {
+                  <img src={item.images[0]} alt="/" className='mt-[15px] h-[159px] w-full'/> 
+                }
                 <div className='flex justify-between items-center'>
                   <div className='w-9/12'>
                     <h2 className='font-Inter font-[500] text-[25px] text-[#58667E] pt-[16px]'>{item.name}</h2>
@@ -171,6 +173,7 @@ const Cards = () => {
             ))
           )}
         </div>
+    
       </div>
     </div>
   )

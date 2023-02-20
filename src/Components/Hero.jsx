@@ -9,12 +9,12 @@ const Hero = () => {
     <div className='bg-[#0D75FF0D] w-full min-h-[875px] md:min-h-[818px] sm:min-h-[920px]'>
       <div className='max-w-[1200px] mx-auto md:mx-4 sm:mx-3'>
         <div className='flex gap-28 relative top-0 left-0 md:gap-4 sm:block'>
-          <div className='pt-[184px] sm:pt-[124px]'>
+          <div className='pt-[184px] sm:pt-[124px] sm:overflow-hidden'>
             <h1 className=' font-Inter font-[500] text-[14px] '>FIND SPECIAL PETS</h1>
-            <p className=' font-Inter font-[600] text-[48px] text-[#344062] leading-[58px] pt-[9px] xl:text-[30px] xl:leading-[40px] md:text-[25px] md:leading-[27px] '>Think you Love Pets? <br /> <span className='text-[#CB2E42]'>Adopt One.</span></p>
-            <p className=' font-Inter font-[400] text-[16px] text-[#344062] pt-[10px] xl:text-[14px] md:w-[300px] '>Pet Adoption is quickly becoming the preferred way to find a new dog, <br /> puppy, cat or kitten</p>
+            <p className=' font-Inter font-[600] text-[48px] text-[#344062] leading-[58px] pt-[9px] xl:text-[30px] xl:leading-[40px] md:text-[25px] md:leading-[27px] sm:text-[18px] '>Think you Love Pets? <br /> <span className='text-[#CB2E42]'>Adopt One.</span></p>
+            <p className=' font-Inter font-[400] text-[16px] text-[#344062] pt-[10px] xl:text-[14px] md:w-[300px] sm:text-[14px] '>Pet Adoption is quickly becoming the preferred way to find a new dog, <br /> puppy, cat or kitten</p>
           </div>
-          <div className='flex flex-col absolute -bottom-80 w-[72%] h-[227px] px-[20px] bg-white rounded-md shadow-lg xl:w-[60%] lg:-bottom-60 md:-bottom-44 sm:w-full sm:h-[440px] sm:relative sm:top-5 '>
+          <div className='flex flex-col absolute -bottom-80 w-[72%] h-[227px] px-[20px] bg-white rounded-md shadow-lg xl:w-[60%] lg:-bottom-60 md:-bottom-44 sm:w-full sm:h-[440px] sm:relative sm:top-5  '>
 
             <div className='relative flex gap-10 items-center px-[20px]  bg-[#F8FAFD] w-full h-[64px] mt-[16px] rounded-full md:gap-2 sm:block  sm:bg-inherit sm:rounded-none sm:space-y-4 sm:px-0 sm:pt-[10px]'>
               <div className='flex gap-2 items-center'>

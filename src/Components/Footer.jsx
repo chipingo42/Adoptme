@@ -2,12 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='bg-[#F3F5FB] h-[520px] w-screen '>
-      <div className='max-w-[1200px] mx-auto'>
+    <div className='bg-[#F3F5FB] h-[520px] w-screen sm:h-[390px] '>
+      <div className='max-w-[1200px] mx-auto md:px-4'>
         <div className='flex justify-between relative top-0 left-0'>
           <div>
-            <span className='relative  -left-10'>
-              <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span className='relative  -left-10 md:-left-3 sm:hidden'>
+              <svg className='w-[200px] h-[200px] md:w-[150px]'  viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M100 64.6446C100 84.1708 84.1709 99.9999 64.6446 99.9999C45.1184 99.9999 29.2893 84.1708 29.2893 64.6446C29.2893 45.1184 45.1184 29.2892 64.6446 29.2892C84.1709 29.2892 100 45.1184 100 64.6446Z" fill="#BFF3ED"/>
                 <path d="M100 64.6446C100 84.1708 84.1709 99.9999 64.6446 99.9999C45.1184 99.9999 29.2893 84.1708 29.2893 64.6446C29.2893 45.1184 45.1184 29.2892 64.6446 29.2892C84.1709 29.2892 100 45.1184 100 64.6446Z" stroke="black"/>
                 <path d="M170.711 64.6446C170.711 84.1708 154.882 99.9999 135.355 99.9999C115.829 99.9999 100 84.1708 100 64.6446C100 45.1184 115.829 29.2892 135.355 29.2892C154.882 29.2892 170.711 45.1184 170.711 64.6446Z" fill="#DBE2F4"/>
@@ -22,8 +22,8 @@ const Footer = () => {
                 <ellipse cx="100" cy="150" rx="35.3553" ry="35.3553" transform="rotate(45 100 150)" stroke="black" strokeOpacity="0.12"/>
               </svg>
             </span>
-            <span className='absolute left-32 '>
-              <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span className='absolute left-32 lg:left-12 md:left-5 sm:hidden'>
+              <svg className='w-[200px] h-[200px] md:w-[150px] 'viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fillRule="evenodd" clipRule="evenodd" d="M67.2836 63.3554C67.2836 82.8816 81.3539 98.7107 98.7104 98.7107V28C81.3539 28.0001 67.2836 43.8292 67.2836 63.3554Z" fill="#CAFBF5"/>
                 <path fillRule="evenodd" clipRule="evenodd" d="M130.137 134.066C130.137 114.54 116.067 98.7107 98.7106 98.7107V169.421C116.067 169.421 130.137 153.592 130.137 134.066Z" fill="#E7EDFD"/>
                 <path fillRule="evenodd" clipRule="evenodd" d="M28 98.7107L98.7107 98.7107C98.7107 116.067 82.8816 130.138 63.3553 130.138C43.8291 130.138 28 116.067 28 98.7107Z" fill="#FBE1D9"/>
@@ -47,22 +47,22 @@ const Footer = () => {
               </svg>
             </span>
           </div>
-          <div className='flex flex-col  justify-center -ml-48 '>
-            <h1 className='font-Inter font-[700] text-[48px] text-[#58667E] leading-[48px] pt-[140px] '><span className='text-[#0D75FF]'>Need</span> help with <br /> Adopting a pet?</h1>
-            <div className='w-[155px] h-[48px] rounded-full mt-[19px] bg-[#0D75FF] flex items-center justify-center'>
+          <div className='flex flex-col  justify-center -ml-36 md:-ml-20 sm:-ml-0 sm:-mt-16  '>
+            <h1 className='font-Inter font-[700] text-[48px] text-[#58667E] leading-[48px] pt-[140px] md:text-[39px] md:leading-[38px] sm:text-[28px] '><span className='text-[#0D75FF]'>Need</span> help with <br /> Adopting a pet?</h1>
+            <div className='w-[155px] h-[48px] rounded-full mt-[19px] bg-[#0D75FF] flex items-center justify-center sm:self-center'>
               <p className=' font-Inter font-[400] text-[14px] text-[#FFFFFF] '>View all pets</p>
             </div>
           </div>
           <div>
-            <span className='absolute right-16'>
-              <svg width="170" height="86" viewBox="0 0 170 86" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span className='absolute right-0 lg:right-0 sm:hidden'>
+              <svg className='w-[170px] h-[86px] md:w-[140px]' viewBox="0 0 170 86" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="42.4264" width="60" height="60" transform="rotate(-45 0 42.4264)" fill="#D71768" fillOpacity="0.15"/>
                 <rect x="84.71" y="42.8531" width="60" height="60" transform="rotate(-45 84.71 42.8531)" fill="#CFD9F1"/>
                 <rect x="43.4171" y="42.8531" width="59" height="59" transform="rotate(-45 43.4171 42.8531)" stroke="black" strokeOpacity="0.12"/>
               </svg>
             </span>
-            <span className='absolute right-16 top-36'>
-              <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span className='absolute right-0 top-36 lg:right-0 sm:hidden'>
+              <svg className='w-[200px] h-[200px] md:w-[150px]'viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M100 64.6446C100 84.1708 84.1709 99.9999 64.6446 99.9999C45.1184 99.9999 29.2893 84.1708 29.2893 64.6446C29.2893 45.1184 45.1184 29.2893 64.6446 29.2893C84.1709 29.2893 100 45.1184 100 64.6446Z" fill="#BFF3ED"/>
                   <path d="M100 64.6446C100 84.1708 84.1709 99.9999 64.6446 99.9999C45.1184 99.9999 29.2893 84.1708 29.2893 64.6446C29.2893 45.1184 45.1184 29.2893 64.6446 29.2893C84.1709 29.2893 100 45.1184 100 64.6446Z" stroke="black"/>
                   <path d="M170.711 64.6446C170.711 84.1708 154.882 99.9999 135.355 99.9999C115.829 99.9999 100 84.1708 100 64.6446C100 45.1184 115.829 29.2893 135.355 29.2893C154.882 29.2893 170.711 45.1184 170.711 64.6446Z" fill="#DBE2F4"/>
@@ -79,8 +79,8 @@ const Footer = () => {
             </span>
           </div>
         </div>
-        <div className='flex items-center justify-between mt-[80px] '>
-          <div className='flex items-center space-x-1 '>
+        <div className='relative flex items-center justify-between mt-[80px] md:mt-[140px] sm:mt-[50px]  '>
+          <div className='flex items-center space-x-1  sm:absolute sm:bottom-56'>
             <div className='w-[50px] h-[50px] bg-[#0D75FF] rounded-full  flex justify-center items-center'>
               <span>
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -88,7 +88,7 @@ const Footer = () => {
                 </svg>
               </span>
             </div>
-            <p className=' font-Inter font-[500] text-[25px]  text-[#344062] '>Petly</p>
+            <p className=' font-Inter font-[500] text-[25px]  text-[#344062] sm:text-[20px] '>Petly</p>
           </div>
           <div className='flex items-center space-x-4'>
             <span>
@@ -112,9 +112,9 @@ const Footer = () => {
               </svg>
             </span>
           </div>
-          <div className='flex space-x-7 relative -left-32'>
-            <span className=' font-Inter font-[500] text-[14px] text-[#616681] '>Terms of use.</span>
-            <span className=' font-Inter font-[500] text-[14px] text-[#616681] '>Privacy Policy</span>
+          <div className='flex space-x-7 relative -left-32 md:left-0 sm:space-x-3'>
+            <span className=' font-Inter font-[500] text-[14px] text-[#616681] sm:text-[12px] '>Terms of use.</span>
+            <span className=' font-Inter font-[500] text-[14px] text-[#616681] sm:text-[12px] '>Privacy Policy</span>
           </div>
         </div>
         <div className='flex items-center justify-center'>
