@@ -30,7 +30,8 @@ const Cards = () => {
 
   return (
     <div className='w-full h-full bg-white pb-[220px] sm:pb-[100px]'>
-      <div className='max-w-[1200px] mx-auto relative top-0 overflow-hidden'>
+      <Skeleton />
+      {/* <div className='max-w-[1200px] mx-auto relative top-0 overflow-hidden'>
         <h1 className=' font-Inter font-[500] text-[24px] pt-[70px] text-[#000000] md:mx-4 sm:mx-3 '>Search Results</h1>
         <div className='flex flex-wrap gap-12 justify-between md:mx-4 sm:mx-3'>
           {isLoading ? ( 
@@ -174,7 +175,7 @@ const Cards = () => {
           )}
         </div>
     
-      </div>
+      </div> */}
     </div>
   )
 }
