@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex items-center justify-center'>
-          <p className=' font-Inter font-[500] text-[14px] text-[#616681] pt-[23px]  '>Copyright © 2021 Petly. All rights reserved.</p>
+          <p className=' font-Inter font-[500] text-[14px] text-[#616681] pt-[23px] sm:pt-[50px]  '>Copyright © 2021 Petly. All rights reserved.</p>
         </div>
       </div>
     </div>
