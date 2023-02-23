@@ -31,9 +31,6 @@ const Detailspage = () => {
 
 
 
-  console.log(pet)
-
-
   return (
     <>
       <Navbar></Navbar>

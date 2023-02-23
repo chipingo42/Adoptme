@@ -14,7 +14,7 @@ const Cards = () => {
 
   useEffect(() => {
     setLoading(true)
-    fetch('https://pets-v2.dev-apis.com/pets') //https://dummyjson.com/products
+    fetch('https://pets-v2.dev-apis.com/pets') 
     .then(res => res.json())
     .then(data => {
       setPet(data)
@@ -25,7 +25,6 @@ const Cards = () => {
     .catch(err => err.message)
   },[])
 
-  console.log(pet)
 
 
   return (
