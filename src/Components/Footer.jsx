@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Footer = () => {
+  
+  const date = new Date().getFullYear()
+  
   return (
     <div className='bg-[#F3F5FB] h-[520px] w-screen sm:h-[390px] overflow-hidden '>
       <div className='max-w-[1200px] mx-auto md:px-4'>
@@ -118,7 +121,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='flex items-center justify-center'>
-          <p className=' font-Inter font-[500] text-[14px] text-[#616681] pt-[23px] sm:pt-[50px]  '>Copyright © 2021 Petly. All rights reserved.</p>
+          <p className=' font-Inter font-[500] text-[14px] text-[#616681] pt-[23px] sm:pt-[50px]  '>Copyright © <span>{date}</span> Petly. All rights reserved.</p>
         </div>
       </div>
     </div>
